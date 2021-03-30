@@ -6,8 +6,9 @@ on:
       - crawler
       - har-file
       - swagger
-  pull_request:
-    branches: [ main ]
+      - main
+#   pull_request:
+#     branches: [ main ]
 
 jobs:
   start_and_wait_scan:
